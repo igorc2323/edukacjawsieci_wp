@@ -1,0 +1,25 @@
+@import 'vars';
+@import 'settings';
+
+.navigation {
+	&__bg {
+		background: linear-gradient(100.03deg, #066DD6 -0.12%, #28109A 53.59%, #CC03B2 100%);
+	}
+
+	&__link {
+		color: $white;
+		z-index: 9999;
+		position: relative;
+	}
+
+	&__logo {
+		font-weight: bold;
+		color: $white;
+	}
+
+	&__title {
+		font-size: 25px;
+		color: $white;
+	}
+
+}

@@ -1,0 +1,39 @@
+@import 'vars';
+@import 'settings';
+
+.slider {
+	&__container {
+		color: $white;
+	}
+
+	&__textbox {
+		line-height: 2.5em;
+		max-width: 35%;
+	}
+
+	&__textbox__bottom {
+		font-size: 14px;
+	}
+
+}
+
+span.upper {
+	font-size: 25px;
+}
+
+.navigation {
+	&__bgimage {
+		left: 42%;
+		right: 0;
+		top: -27%;
+		bottom: 0.49%;
+		font-size: 0px;
+		background-image: url(http://localhost/edukacjawsieci/wp-content/themes/edukacjawsieci/src/assets/images/home/vector.png) !important;
+		z-index: 9998;
+		position: absolute;
+		transform: scale(0.6);
+		opacity: 0.3;
+		background-repeat: no-repeat;
+	}
+
+}

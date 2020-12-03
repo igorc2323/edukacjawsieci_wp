@@ -1,0 +1,9 @@
+@import 'vars';
+@import 'settings';
+
+.footer {
+	&__link {
+		color: $textcolor;
+	}
+
+}

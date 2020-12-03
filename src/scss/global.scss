@@ -1,0 +1,42 @@
+@import 'vars';
+@import 'settings';
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin-bottom: 0rem !important;
+	line-height: 1em !important;
+}
+
+br {
+	line-height: 0.5px;
+}
+
+.playfair, span.playfair {
+	font-family: 'Playfair Display', serif;
+}
+
+.ligth, span.ligth {
+	font-weight: 300;
+}
+
+.bold, span.bold {
+	font-weight: bold;
+}
+
+span.title, .title {
+	font-size: 38px;
+}
+
+.button {
+	background-color: transparent !important;
+	color: $secondary !important;
+	border: solid 2px $secondary !important
+}
+
+.thumbnail{
+    border: none!important;
+    box-shadow: none!important;
+    }

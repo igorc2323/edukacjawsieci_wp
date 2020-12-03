@@ -1,0 +1,19 @@
+.news {
+	&__title {
+		text-decoration: none;
+		color: $black;
+	}
+
+	&__info {
+		color: $secondary;
+	}
+
+	&__organisator {
+		font-size: 12px;
+	}
+
+	&__organisatorlink {
+		color: $secondary;
+	}
+
+}
